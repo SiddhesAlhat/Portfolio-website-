@@ -45,6 +45,8 @@ public class User {
     private Set<String> roles = new HashSet<>();
 
     private boolean enabled = true;
+    
+    private boolean verified = false;
 
     private Instant createdAt = Instant.now();
 }
